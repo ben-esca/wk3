@@ -1,0 +1,61 @@
+/* Checkpoint 2: Typography and Links */
+
+p {
+    padding-top: 15px;
+}
+a {
+    font-size: 16px;
+    color: #B21F50;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+*:focus {
+    outline: none;
+    border: 6px dashed #417243;
+}
+h1 {
+    line-height: 2;
+    font-family: "Syncopate", sans-serif;
+    text-align: center;
+}
+
+/* Checkpoint 3: Background */
+body {
+    background-image: url("../images/pigeon-background.jpg");
+    background-color: #DDDDDD;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Checkpoint 4: Table Styling */
+th, td {
+    text-align: center;
+    border-bottom: 2px #000000 solid;
+    padding: 10px;
+}
+thead tr th {
+    min-width: 125px;
+    padding: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #7e0820;
+    text-align: center;
+}
+tbody tr th {
+    border-top: #000000 solid 2px;
+    border-left: #000000 solid 2px;
+    border-right: #000000 solid 2px;
+    border-bottom: #000000 solid 2px;
+}
+tr:hover {
+    background-color:#7e0820;
+    opacity: 0.25;
+}
+
+
+/* Checkpoint 5: Advanced Table Borders */
+
+/* Checkpoint 6: Custom Favicon */
+
+/* Checkpoint 7: Validation and Deployment */
